@@ -13,6 +13,6 @@ Project consists of setting inbound and outbound rules in Windows Firewall.
 
 <h2>Environments Used </h2>
 
-- <b>Windows 11, Windows Server</b>
+- <b>Windows, Windows Server</b>
 
 <h2>Program walk-through:</h2>
