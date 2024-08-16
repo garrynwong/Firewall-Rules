@@ -38,7 +38,24 @@ Project consists of inspecting netwrok traffic and setting inbound and outbound 
 <br>
 
 
-<h3>Step 3: </h3>
+<h3>Step 3: SSH into the domain controller; then filter and observe SSH traffic only in Wireshark</h3>
+<p></p>
+
+- 
+
+<br>
+
+
+
+<h3>Step 4: request a new ip address from DHCP via ipconfig /renew; then filter and observe DHCP traffuc only in Wireshark</h3>
+<p></p>
+
+- 
+
+<br>
+
+
+<h3>Step 5: initiate DNS traffic via nslookup; then filter and observe DNS traffic only in Wireshark</h3>
 <p></p>
 
 - 
