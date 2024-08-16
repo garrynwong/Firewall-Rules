@@ -3,7 +3,7 @@
  ### [ ]()
 
 <h2>Description</h2>
-Project consists of inspecting netwrok traffic and setting inbound and outbound rules in Windows Firewall.
+Project consists of inspecting network traffic and setting inbound and outbound rules in Windows Firewall.
 <br />
 
 
