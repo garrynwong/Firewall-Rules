@@ -3,7 +3,7 @@
  ### [ ]()
 
 <h2>Description</h2>
-Project consists of setting inbound and outbound rules in Windows Firewall.
+Project consists of inspecting netwrok traffic and setting inbound and outbound rules in Windows Firewall.
 <br />
 
 
@@ -20,9 +20,9 @@ Project consists of setting inbound and outbound rules in Windows Firewall.
 <h2>Program walk-through:</h2>
 
 
-<h1>Firewall Rules</h1>
+<h1>Inspecting Network Traffic</h1>
 
-<h3>Step 1: </h3>
+<h3>Step 1: Ping the domain controller from the client; then filter and observe ICMP packets only in Wireshark </h3>
 <p> </p>
 
 - 
@@ -30,7 +30,7 @@ Project consists of setting inbound and outbound rules in Windows Firewall.
 <br>
 
 
-<h3>Step 2: </h3>
+<h3>Step 2: Continually ping the domain controller from the client; then set a firewall rule on the server to block/deny inbound ICMP traffic</h3>
 <p></p>
 
 - 
