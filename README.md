@@ -47,7 +47,7 @@ Project consists of inspecting netwrok traffic and setting inbound and outbound 
 
 
 
-<h3>Step 4: request a new ip address from DHCP via ipconfig /renew; then filter and observe DHCP traffuc only in Wireshark</h3>
+<h3>Step 4: request a new ip address from DHCP via ipconfig /renew; then filter and observe DHCP traffic only in Wireshark</h3>
 <p></p>
 
 - 
@@ -66,4 +66,4 @@ Project consists of inspecting netwrok traffic and setting inbound and outbound 
 
 <h2> Final Thoughts </h2>
 
-<p> In closing, the "Firewall Rules" project streamlines our  .</p>
+<p> In closing, the "Firewall Rules & Inspecting Traffic" project streamlines our  .</p>
