@@ -12,10 +12,11 @@ Project consists of inspecting network traffic and setting inbound and outbound 
 - <b>Windows Firewall</b>
 - <b>Command Line Tools</b>
 - <b>Network Protocols</b>
+- <b>WireShark</b>
 
 <h2>Environments Used </h2>
 
-- <b>Windows, Windows Server</b>
+- <b>Windows 11, Windows Server 2022</b>
 
 <h2>Program walk-through:</h2>
 
