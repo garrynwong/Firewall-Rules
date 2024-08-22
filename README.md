@@ -66,7 +66,7 @@ ____
 
 
 <h3>Step 3: </h3>
-<p>SSH into the domain controller; then filter and observe SSH traffic only in Wireshark. make sure to have an ssh server running such as OpenSSH </p>
+<p>SSH into the domain controller; then filter and observe SSH traffic only in Wireshark. make sure to have an ssh server running such as OpenSSH Server</p>
 
 
 - ssh (USERNAME)@(HOSTNAME)
