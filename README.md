@@ -89,27 +89,43 @@ to check contents of the current directory
 
 
 
+
 ![8](https://github.com/user-attachments/assets/e0aa7a19-595c-423f-8eaa-535f7c38332f)
 
 
-<br>
+____
+
+to end ssh session
+- exit
+
+
+![9](https://github.com/user-attachments/assets/eb461205-b4b2-4e4c-8634-d6cca90afcee)
 
 
 
-<h3>Step 4: request a new ip address from DHCP via ipconfig /renew; then filter and observe DHCP traffic only in Wireshark</h3>
-<p></p>
-
-- 
-
-<br>
+____
 
 
-<h3>Step 5: initiate DNS traffic via nslookup; then filter and observe DNS traffic only in Wireshark</h3>
-<p></p>
 
-- 
+<h3>Step 4: </h3>
+<p>request a new ip address from DHCP via ipconfig /renew; then filter and observe DHCP traffic only in Wireshark</p>
 
-<br>
+
+![10](https://github.com/user-attachments/assets/99589e9d-b002-4175-8172-07cfcb7b208c)
+
+
+
+____
+
+
+<h3>Step 5: </h3>
+<p>initiate DNS traffic via "nslookup (DOMAIN NAME)"; then filter and observe DNS traffic only in Wireshark</p>
+
+
+![11](https://github.com/user-attachments/assets/0f986437-e9ae-4ca3-bcbc-640e25707b08)
+
+
+____
 
 
 
