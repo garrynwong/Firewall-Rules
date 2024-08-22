@@ -12,7 +12,7 @@ Project consists of inspecting network traffic and setting inbound and outbound 
 - <b>Windows Firewall</b>
 - <b>Command Line Tools</b>
 - <b>Network Protocols</b>
-- <b>WireShark</b>
+- <b>WirsShark</b>
 
 <h2>Environments Used </h2>
 
