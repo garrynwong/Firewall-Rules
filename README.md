@@ -22,16 +22,17 @@ Project consists of inspecting network traffic and setting inbound and outbound 
 
 <h1>Inspecting Network Traffic</h1>
 
-<h3>Step 1: Ping the domain controller from the client; then filter and observe ICMP packets only in Wireshark </h3>
-<p> </p>
+<h3>Step 1:  </h3>
+<p> Ping the domain controller from the client; then filter and observe ICMP packets only in Wireshark </p>
 
-- 
-
-<br>
+![1](https://github.com/user-attachments/assets/bdfcedef-da30-4820-b518-ef3e61923649)
 
 
-<h3>Step 2: ping the domain controller from the client; then set a firewall rule on the server to block/deny inbound ICMP v4 traffic</h3>
-<p></p>
+____
+
+
+<h3>Step 2:</h3>
+<p> set a firewall rule on the server to block/deny inbound ICMP v4 traffic; then ping the domain controller from the client</p>
 
 - custom rule type
 - all programs
@@ -41,13 +42,55 @@ Project consists of inspecting network traffic and setting inbound and outbound 
 - check boxes for domain, private, public
 - name = block icmp v4 traffic
 
-<br>
+![2](https://github.com/user-attachments/assets/9f0f06e1-4bc0-4a1d-b0aa-35f7e1e4c8ab)
 
 
-<h3>Step 3: SSH into the domain controller; then filter and observe SSH traffic only in Wireshark</h3>
-<p></p>
+![3](https://github.com/user-attachments/assets/29ecf21a-1a04-465b-a70a-4e0bc3d2cdf1)
 
-- 
+____
+
+wireshark is showing that no response was found for ping and cmd is request timed out
+
+![4](https://github.com/user-attachments/assets/ffd85b6a-d12d-49c8-990d-eb8d0de75cb4)
+
+
+____
+now disable the firewall rule to allow icmp v4 traffic
+
+![5](https://github.com/user-attachments/assets/86204ee9-7273-4fc4-9cd7-ae584dcfc7f2)
+
+![6](https://github.com/user-attachments/assets/53d3cc09-23ef-4437-a1bc-2b911ce6070f)
+
+
+____
+
+
+<h3>Step 3: </h3>
+<p>SSH into the domain controller; then filter and observe SSH traffic only in Wireshark. make sure to have an ssh server running such as OpenSSH </p>
+
+
+- ssh (USERNAME)@(HOSTNAME)
+- ENTER PASSWORD FOR USERNAME
+
+![7](https://github.com/user-attachments/assets/2eb02079-de1c-44b9-837a-71f956783b23)
+
+____
+
+- to verify ssh connection, use commands to navigate through the drive
+
+to navigate into a directory
+- cd (FOLDER NAME)
+
+to navigate to the previous directory
+- cd.. 
+
+to check contents of the current directory
+- dir
+
+
+
+![8](https://github.com/user-attachments/assets/e0aa7a19-595c-423f-8eaa-535f7c38332f)
+
 
 <br>
 
