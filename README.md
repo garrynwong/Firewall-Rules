@@ -30,10 +30,16 @@ Project consists of inspecting network traffic and setting inbound and outbound 
 <br>
 
 
-<h3>Step 2: Continually ping the domain controller from the client; then set a firewall rule on the server to block/deny inbound ICMP traffic</h3>
+<h3>Step 2: ping the domain controller from the client; then set a firewall rule on the server to block/deny inbound ICMP v4 traffic</h3>
 <p></p>
 
-- 
+- custom rule type
+- all programs
+- icmp v4
+- any ip addresses
+- block the connection
+- check boxes for domain, private, public
+- name = block icmp v4 traffic
 
 <br>
 
